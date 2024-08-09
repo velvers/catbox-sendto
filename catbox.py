@@ -6,7 +6,7 @@ from plyer import notification
 def upload_to_catbox(file_path):
     print(f"uploading file: {file_path}")  # debug shit
     url = 'https://catbox.moe/user/api.php'
-    userhash = '8dfe2b50a968edff0dd6ff1cc'  # userhash go here
+    userhash = '####'  # userhash go here
     files = {'fileToUpload': open(file_path, 'rb')}
     data = {'reqtype': 'fileupload', 'userhash': userhash}
 
