@@ -21,10 +21,10 @@ git clone https://github.com/velvers/catbox-sendto.git
     userhash = '####'  # userhash go here
    ```
 4. **batch file**
-```batch
-@echo off
-python "D:\path\to\your\catbox.py" %1
-```
+    ```batch
+    @echo off
+    python "D:\path\to\your\catbox.py" %1
+    ```
 - save this batch file as `catbox.bat` in your `send to` folder (`shell:sendto`)
 4.5 _optional_
 - make a shortcut for the batch file and save it as `&catbox` and add an icon (`catbox.ico`) to it (looks nicer imo)
