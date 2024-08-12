@@ -1,7 +1,7 @@
 # catbox-sendto
 simple python script to make uploading to [catbox](https://catbox.moe/) faster
 ## features
-    - upload a file to [catbox](https://catbox.moe/)
+    - upload files to catbox
     - copies url to your clipboard
     - notification on successful file upload
 ## usage
@@ -21,7 +21,7 @@ simple python script to make uploading to [catbox](https://catbox.moe/) faster
    ```python
     userhash = '####'  # userhash go here
    ```
-4. **batch file**
+4. **make a batch file**
     ```batch
     @echo off
     python "D:\path\to\your\catbox.py" %1
