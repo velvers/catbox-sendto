@@ -1,3 +1,5 @@
 requests
 pyperclip
 plyer
+tqdm
+requests-toolbelt
